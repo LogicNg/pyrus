@@ -80,11 +80,9 @@ def updateImg(numb, sleepNum):  # Image changer
 
 
 def initiate(e):
-    print("Initiated")
     global ISRUN
     if ISRUN == False:
         ISRUN = True
-        print("Running")
         updateImg(1, 1)
         updateImg(2, 2)
         updateImg(3, 2)
